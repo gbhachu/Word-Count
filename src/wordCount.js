@@ -67,3 +67,20 @@ Book.prototype.primeNum = function (number) {
 
   return number > 1;
 };
+
+Book.prototype.Analyse = function () {
+  this.getText();
+  this.countOccurences();
+  this.sortOccurences();
+  console.log(this.printResults());
+};
+
+var fs = require('fs');
+
+if (process.argv[2] === undefined) {
+  console.log('Incorrect number of arguments. Suggested use: npm start book-file/Railway-Children-by-E-Nesbit.txt');
+} else {
+  var textFromBook = fs.readFileSync(process.argv[2], 'utf8');
+  var book = new Book(textFromBook);
+  book.Analyse();
+}

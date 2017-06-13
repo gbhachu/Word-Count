@@ -1,0 +1,20 @@
+{
+  "name": "word-count",
+  "version": "1.0.0",
+  "description": "\"app that counts the number of words in a book\"",
+  "main": "src/wordCount.js",
+  "scripts": {
+    "start": "node ./src/wordCount.js",
+    "test": "SpecRunner.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbhachu/Word-Count.git"
+  },
+  "author": "Gurminder Bhachu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbhachu/Word-Count/issues"
+  },
+  "homepage": "https://github.com/gbhachu/Word-Count#readme"
+}
