@@ -40,7 +40,17 @@ describe('Book', function () {
       book.arrayText();
       book.countWords();
       book.wordSorter();
-      expect(book.printResults()).toEqual(['hello 3', 'do 2', "you 2", 'how 1', 'to 1', 'too 1']);
+      expect(book.printResults()).toEqual(['hello - 3 prime', 'do - 2 prime', "you - 2 prime", 'how - 1', 'to - 1', 'too - 1']);
+    });
+  });
+
+  describe('primeNum', function () {
+    it('returns true if it is a prime number', function () {
+      expect(book.primeNum(367)).toBe(true);
+    });
+
+    it('returns false if it is not a prime number', function () {
+      expect(book.primeNum(368)).toBe(false);
     });
   });
 });

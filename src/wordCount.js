@@ -46,8 +46,24 @@ Book.prototype.wordSorter = function () {
 Book.prototype.printResults = function () {
   for (var i = 0; i < this.index.length; i++) {
     var word = this.index[i];
-    this.sortWord.push(word + ' ' + this.countWord[word]);
+
+    if (this.primeNum(this.countWord[word])){
+      this.sortWord.push(word + ' - ' + this.countWord[word] + ' prime');
+    } else {
+        this.sortWord.push(word + ' - ' + this.countWord[word]);
+    }
+
   }
 
+
   return this.sortWord;
+};
+
+Book.prototype.primeNum = function (number) {
+  var start = 2;
+  while (start <= Math.sqrt(number)) {
+    if (number % start++ < 1) return false;
+  }
+
+  return number > 1;
 };
