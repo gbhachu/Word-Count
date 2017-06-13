@@ -1,12 +1,12 @@
-### Word-Count
+# Word-Count
 
 ## Stack
 
-JavaScript
+* JavaScript
 
-Jasmine (Testing framework)
+* Jasmine (Testing framework)
 
-NodeJS (JavaScript runtime environment)
+* NodeJS (JavaScript runtime environment)
 
 ## Brief
 
@@ -16,7 +16,11 @@ NodeJS (JavaScript runtime environment)
 
  1.Write an application that outputs the individual words that appear in the book, and how many times that word appears in the text file.
 
- 2.The second part is to also output whether the number of times each word appears is a prime number.The following assumptions can be made:Ignore punctuation and capitalisation TDD is expected.
+ 2.The second part is to also output whether the number of times each word appears is a prime number.
+
+ The following assumptions can be made:
+ * Ignore punctuation and capitalisation
+ * TDD is expected
 
 ## Requirements
 Install Node and npm from terminal
