@@ -1,5 +1,13 @@
 ### Word-Count
 
+## Stack
+
+JavaScript
+
+Jasmine (Testing framework)
+
+NodeJS (JavaScript runtime environment)
+
 ## Brief
 
  The test is as follows: Given a book in a text file
@@ -13,8 +21,23 @@
 ## Requirements
 Install Node and npm from terminal
 
+run commands:
+
 ```
-npm Install
+$ cd root/of/your-project/
+$ npm install
+
 ```
 
 further instructions for running npm can be found here: https://closebrace.com/tutorials/2017-03-02/the-dead-simple-step-by-step-guide-for-front-end-developers-to-getting-up-and-running-with-nodejs-express-and-mongodb
+
+## Tests
+
+from the terminal, run command:
+```
+$ npm test
+```
+
+This will open up SpecRunner.html.
+
+I followed a TDD approach to this project,
