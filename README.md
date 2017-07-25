@@ -52,6 +52,6 @@ This will open up SpecRunner.html.
 
 ## Development
 
-I decided to use Javascript as the framework behind this project with NodeJS, this let me to show the results in a   human readable way. Testing was carried out through Jasmine using a TDD approach to methodically understand the next steps offering scalability to the test. Done
+I decided to use Javascript as the framework behind this project with NodeJS, this let me to show the results in a   human readable way. Testing was carried out through Jasmine using a TDD approach to methodically understand the next steps offering scalability to the test. 
 
 With time running out I did not have enough to iron out the issues with Node, but a bit more time I would have rectified this.
